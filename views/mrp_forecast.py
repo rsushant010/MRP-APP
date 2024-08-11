@@ -44,14 +44,14 @@ with right_col:
 col1, col2 = st.columns(2)
 
 with col1:
-    n = st.number_input("avg to top n transaction", min_value=0, step=1,max_value=24, value=3)
-    demand_multiple_input = st.number_input("demand multiple input", min_value=0, step=1,max_value=10,  value=3)
-    beg_invent_input = st.number_input("beg invent input", min_value=0, step=1,max_value=10,  value=6)
+    n = st.number_input("avg to top n transaction", min_value=1, step=1,max_value=24, value=3)
+    demand_multiple_input = st.number_input("demand multiple input", min_value=1, step=1,max_value=10,  value=3)
+    beg_invent_input = st.number_input("beg invent input", min_value=1, step=1,max_value=10,  value=6)
 
 with col2:
-    lotSize_input = st.number_input("lotSize input", min_value=0, step=1,max_value=10, value=6)
-    safety_stock_input = st.number_input("safety stock input", min_value=0, step=1,max_value=10, value=3)
-    lead_time = st.number_input("lead time", min_value=0, step=1,max_value=10, value=2)
+    lotSize_input = st.number_input("lotSize input", min_value=1, step=1,max_value=10, value=6)
+    safety_stock_input = st.number_input("safety stock input", min_value=1, step=1,max_value=10, value=3)
+    lead_time = st.number_input("lead time", min_value=1, step=1,max_value=10, value=2)
 
 
 
