@@ -1,0 +1,7 @@
+README.md
+setup.py
+MRP_APP.egg-info/PKG-INFO
+MRP_APP.egg-info/SOURCES.txt
+MRP_APP.egg-info/dependency_links.txt
+MRP_APP.egg-info/requires.txt
+MRP_APP.egg-info/top_level.txt

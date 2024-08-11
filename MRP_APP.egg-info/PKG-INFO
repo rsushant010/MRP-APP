@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: MRP-APP
+Version: 0.0.1
+Author: Sushant
+Author-email: rsushant441@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: streamlit
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: openpyxl
